@@ -1,0 +1,1 @@
+tqdm==4.46.0numpy==1.18.5tensorflow_gpu==1.15.0matplotlib==3.3.3scikit_learn==0.24.2
