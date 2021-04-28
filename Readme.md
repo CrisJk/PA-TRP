@@ -1,6 +1,6 @@
 # Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction
 
-![Overview of Our proposed model](/Users/jun/RelationExtraction/figure/framework.png)
+![Overview of Our proposed model](./figure/framework.png)
 
 
 
