@@ -33,12 +33,6 @@ class model:
 
         self.mask = tf.placeholder(dtype=tf.int32,shape=[None,max_length],name='mask')
 
-        self.bc_embedding = tf.placeholder(dtype=tf.float32,shape=[None,max_length,768],name='bert_embedding')
-        if config.model.use_coocurrence == True:
-            self.coocurrence_embedding = data_loader.coocurrence_embedding
-        else:
-            self.coocurrence_embedding = None
-
         if config.model.use_deepwalk == True:
             self.deepwalk_mat = data_loader.deepwalk_mat
         else:

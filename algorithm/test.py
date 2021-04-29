@@ -71,8 +71,6 @@ test_data_loader_all = module.data_loader.json_file_data_loader(config.dir.datas
                                                             config.dir.dataset_dir[dataset]['rel2id'],
                                                             config.dir.dataset_dir[dataset]['rel2id2'],
                                                             config.dir.dataset_dir[dataset]['rel2id3'],
-
-                                                            config.dir.dataset_dir[dataset]['coocurrence'],
                                                             config.dir.dataset_dir[dataset]['deepwalk'],
                                                             config.dir.dataset_dir[dataset]['rel_rel2'],
                                                             config.dir.dataset_dir[dataset]['rel_rel3'],
