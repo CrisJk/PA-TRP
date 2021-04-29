@@ -36,7 +36,7 @@ For training the relation extraction model, run the following command:
 python3 train.py {DATASET_NAME} {ENCODER} {SELECTOR} {EXP}
 ```
 
-Where the `DATASET_NAME` can be `nyt` or `gids` , the  `ENCODER` can be `pcnn` 、`cnn`  or `rnn`, the  `SELECTOR` can be `ave(means average pooling)` or `att(means selective attention)`, and the `EXP` can be `trp/tmr/none`, which means using relation prototype,  implicit mutual relation or nothing, more details please refer to out paper. As illustrated in our paper, the model achived best performance is PA-TRP, which can be trained by the following command:
+Where the `DATASET_NAME` can be `nyt` or `gids` , the  `ENCODER` can be `pcnn` ,`cnn`  or `rnn`, the  `SELECTOR` can be `ave(means average pooling)` or `att(means selective attention)`, and the `EXP` can be `trp/tmr/none`, which means using relation prototype,  implicit mutual relation or nothing, more details please refer to out paper. As illustrated in our paper, the model achived best performance is PA-TRP, which can be trained by the following command:
 
 ```shell
 python3 train.py nyt pcnn att trp
