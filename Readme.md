@@ -26,7 +26,7 @@ You can run the experiments in just two steps:
 
 ### Download dataset
 
-We use  [Riedel NYT](http://iesl.cs.umass.edu/riedel/ecml/) and [Google Distant Supervision (GDS)](https://arxiv.org/pdf/1804.06987.pdf) dataset for evaluation. We have uploaded the preprocessed dataset and some pretrained files on [Google Driver](https://drive.google.com/file/d/1b6a7Rzf0GGfvwyhlv-OTyd4lqfKkdvAD/view?usp=sharing). Download the [data.zip](https://drive.google.com/file/d/1b6a7Rzf0GGfvwyhlv-OTyd4lqfKkdvAD/view?usp=sharing) and uncompress it to `algorithm/`
+We use  [Riedel NYT](http://iesl.cs.umass.edu/riedel/ecml/) and [Google Distant Supervision (GDS)](https://arxiv.org/pdf/1804.06987.pdf) dataset for evaluation. We have uploaded the preprocessed dataset and the pretrained files on [Google Driver](https://drive.google.com/file/d/1b6a7Rzf0GGfvwyhlv-OTyd4lqfKkdvAD/view?usp=sharing). Download the [data.zip](https://drive.google.com/file/d/1b6a7Rzf0GGfvwyhlv-OTyd4lqfKkdvAD/view?usp=sharing) and uncompress it to `algorithm/`
 
 ### Run experiments
 
