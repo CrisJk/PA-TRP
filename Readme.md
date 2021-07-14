@@ -6,7 +6,7 @@
 
 
 
-This repository provides the code of the paper: *Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction*.
+This repository provides the code for our TKDE paper: *Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction*.
 
 ## Dependencies
 
@@ -54,6 +54,19 @@ python3 test.py {DATASET_NAME} {MODEL_NAME}
 
 ![](figure/result.jpeg)
 
+## Citation
+Please cite the following paper if you use this code in your work.
+```
+@ARTICLE{9483677,
+  author={Cao, Yixin and Kuang, Jun and Gao, Ming and Zhou, Aoying and Wen, Yonggang and Chua, Tat-Seng},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TKDE.2021.3096200}}
+```
 
 
 ## Reference
