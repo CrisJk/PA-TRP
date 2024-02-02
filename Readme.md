@@ -55,7 +55,7 @@ python3 test.py {DATASET_NAME} {MODEL_NAME}
 ![](figure/result.jpeg)
 
 ## Citation
-Please cite the following paper if you use this code in your work.
+Please cite the following papers if you use this code in your work.
 ```
 @ARTICLE{9483677,
   author={Cao, Yixin and Kuang, Jun and Gao, Ming and Zhou, Aoying and Wen, Yonggang and Chua, Tat-Seng},
@@ -66,6 +66,26 @@ Please cite the following paper if you use this code in your work.
   number={},
   pages={1-1},
   doi={10.1109/TKDE.2021.3096200}}
+
+@inproceedings{DBLP:conf/icde/Kuang0Z00Z20,
+  author       = {Jun Kuang and
+                  Yixin Cao and
+                  Jianbing Zheng and
+                  Xiangnan He and
+                  Ming Gao and
+                  Aoying Zhou},
+  title        = {Improving Neural Relation Extraction with Implicit Mutual Relations},
+  booktitle    = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
+                  Dallas, TX, USA, April 20-24, 2020},
+  pages        = {1021--1032},
+  publisher    = {{IEEE}},
+  year         = {2020},
+  url          = {https://doi.org/10.1109/ICDE48307.2020.00093},
+  doi          = {10.1109/ICDE48307.2020.00093},
+  timestamp    = {Tue, 01 Mar 2022 17:47:39 +0100},
+  biburl       = {https://dblp.org/rec/conf/icde/Kuang0Z00Z20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 
