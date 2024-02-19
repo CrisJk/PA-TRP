@@ -68,25 +68,23 @@ Please cite the following papers if you use this code in your work.
   doi={10.1109/TKDE.2021.3096200}}
 ```
 ```
-@inproceedings{DBLP:conf/icde/Kuang0Z00Z20,
-  author       = {Jun Kuang and
-                  Yixin Cao and
-                  Jianbing Zheng and
-                  Xiangnan He and
-                  Ming Gao and
-                  Aoying Zhou},
-  title        = {Improving Neural Relation Extraction with Implicit Mutual Relations},
-  booktitle    = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
-                  Dallas, TX, USA, April 20-24, 2020},
-  pages        = {1021--1032},
-  publisher    = {{IEEE}},
-  year         = {2020},
-  url          = {https://doi.org/10.1109/ICDE48307.2020.00093},
-  doi          = {10.1109/ICDE48307.2020.00093},
-  timestamp    = {Tue, 01 Mar 2022 17:47:39 +0100},
-  biburl       = {https://dblp.org/rec/conf/icde/Kuang0Z00Z20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@INPROCEEDINGS {9101658,
+author = {J. Kuang and Y. Cao and J. Zheng and X. He and M. Gao and A. Zhou},
+booktitle = {2020 IEEE 36th International Conference on Data Engineering (ICDE)},
+title = {Improving Neural Relation Extraction with Implicit Mutual Relations},
+year = {2020},
+volume = {},
+issn = {},
+pages = {1021-1032},
+abstract = {Relation extraction (RE) aims at extracting the relation between two entities from the text corpora. It is a crucial task for Knowledge Graph (KG) construction. Most existing methods predict the relation between an entity pair by learning the relation from the training sentences, which contain the targeted entity pair. In contrast to existing distant supervision approaches that suffer from insufficient training corpora to extract relations, our proposal of mining implicit mutual relation from the massive unlabeled corpora transfers the semantic information of entity pairs into the RE model, which is more expressive and semantically plausible. After constructing an entity proximity graph based on the implicit mutual relations, we preserve the semantic relations of entity pairs via embedding each vertex of the graph into a low-dimensional space. As a result, we can easily and flexibly integrate the implicit mutual relations and other entity information, such as entity types, into the existing RE methods.Our experimental results on a New York Times and another Google Distant Supervision datasets suggest that our proposed neural RE framework provides a promising improvement for the RE task, and significantly outperforms the state-of-the-art methods. Moreover, the component for mining implicit mutual relations is so flexible that can help to improve the performance of both CNN-based and RNN-based RE models significant.},
+keywords = {data mining;training;neural networks;noise measurement;task analysis;training data;semantics},
+doi = {10.1109/ICDE48307.2020.00093},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICDE48307.2020.00093},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {apr}
 }
+
 ```
 
 
